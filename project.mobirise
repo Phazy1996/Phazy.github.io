@@ -24,7 +24,9 @@
     "uniqCompNum": 27,
     "versionPublish": "3.8.5",
     "favicon": "",
-    "noImageResize": ""
+    "noImageResize": "",
+    "publishType": "local",
+    "publishPath": "file:///C:/Users/Phineas/Desktop/Phinny%20Portfolio"
   },
   "pages": {
     "index.html": {
