@@ -772,9 +772,12 @@ h6,
 #menu-k .close-icon::after {
   background-color: #ffffff;
 }
+<<<<<<< HEAD
 #msg-box1-u H2 {
   color: #000000;
 }
+=======
+>>>>>>> origin/master
 #menu-16 .hide-buttons .nav-btn {
   display: none !important;
 }
@@ -842,6 +845,7 @@ h6,
 #menu-16 .close-icon::after {
   background-color: #ffffff;
 }
+<<<<<<< HEAD
 #msg-box1-18 H3 {
   color: #000000;
 }
@@ -854,6 +858,8 @@ h6,
 #content7-1a P {
   text-align: left;
 }
+=======
+>>>>>>> origin/master
 #menu-1b .hide-buttons .nav-btn {
   display: none !important;
 }
