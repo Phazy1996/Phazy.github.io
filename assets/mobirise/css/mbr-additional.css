@@ -478,6 +478,9 @@ h6,
 #menu-0 .close-icon::after {
   background-color: #ffffff;
 }
+#slider-0 H2 {
+  font-size: 72px;
+}
 #menu-2 .hide-buttons .nav-btn {
   display: none !important;
 }
@@ -773,6 +776,9 @@ h6,
   background-color: #ffffff;
 }
 #msg-box1-u H2 {
+  color: #000000;
+}
+#content7-15 P {
   color: #000000;
 }
 #menu-16 .hide-buttons .nav-btn {
