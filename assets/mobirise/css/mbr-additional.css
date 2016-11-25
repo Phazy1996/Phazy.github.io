@@ -479,7 +479,14 @@ h6,
   background-color: #ffffff;
 }
 #slider-0 H2 {
-  font-size: 72px;
+  font-size: 48px;
+  text-align: left;
+}
+#slider-0 P {
+  text-align: left;
+}
+#slider-0 SPAN {
+  text-align: center;
 }
 #menu-2 .hide-buttons .nav-btn {
   display: none !important;

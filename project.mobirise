@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "chained.html",
+    "currentPage": "aboutme.html",
     "name": "Portfolio Phineas Moore",
     "theme": {
       "name": "mobirise3",
@@ -130,7 +130,7 @@
               "newWindow": false
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Phineas Moore<br>Developer<br></a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Phineas Moore<br>Game Developer<br></a>",
           "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">Projects<br></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"chained.html\">Chained</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"blasterfest.html\">Blasterfest</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"snake.html\">Snake</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"aboutme.html\" aria-expanded=\"false\">About Me</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact.html\" aria-expanded=\"false\">Contact</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
@@ -138,25 +138,36 @@
             "Theme"
           ],
           "_name": "slider",
+          "_styles": {
+            "H2": {
+              "font-size": "48px",
+              "text-align": "left"
+            },
+            "P": {
+              "text-align": "left"
+            },
+            "SPAN": {
+              "text-align": "center"
+            }
+          },
           "_params": {
             "autoplay": true,
             "paddingTop": 3,
             "paddingBottom": 3,
-            "timeout": 5,
+            "timeout": "10",
             "slides": [
               {
                 "active": false,
-                "image": "@PROJECT_PATH@/assets/images/blasterfest-2000x1125-29.png",
+                "image": "@PROJECT_PATH@/assets/images/snake-2000x1496-9.png",
                 "playVideo": true,
                 "videoUrl": "https://www.youtube.com/watch?v=-vY60h6fhhY",
                 "overlay": true,
-                "overlayOpacity": "0.4",
-                "overlayColor": "#000000",
-                "contentAlign": "center",
+                "overlayOpacity": "0.2",
+                "contentAlign": "left",
                 "showTitle": true,
-                "title": "Phineas Moore Portfolio<br>Developer",
+                "title": "Phineas Moore <br>Game Developer<br>Portfolio<br>",
                 "showText": true,
-                "text": "",
+                "text": "Battle Arena game made in Unity",
                 "showButtons": true,
                 "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"blasterfest.html\" data-toolbar=\"-mbrBtnMove\">Blasterfest</a>"
               },
@@ -166,29 +177,29 @@
                 "playVideo": true,
                 "videoUrl": "https://www.youtube.com/watch?v=F74qeX2iKrU",
                 "overlay": true,
-                "overlayOpacity": "0.4",
-                "contentAlign": "center",
+                "overlayOpacity": "0",
+                "contentAlign": "left",
                 "showTitle": true,
-                "title": "Phineas Moore Portfolio<br>Developer",
-                "showText": false,
-                "text": "Slide with youtube video background and color overlay. Title and text are aligned to the left.",
+                "title": "Phineas Moore <br>Game Developer<br>Portfolio<br>",
+                "showText": true,
+                "text": "Snake made with Phaser.io",
                 "showButtons": true,
                 "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"snake.html\" data-toolbar=\"-mbrBtnMove\">Snake</a>"
               },
               {
                 "active": true,
-                "image": "@PROJECT_PATH@/assets/images/logo2-2000x1125-32.png",
+                "image": "@PROJECT_PATH@/assets/images/snake-2000x1496-9.png",
                 "playVideo": true,
                 "videoUrl": "https://www.youtube.com/watch?v=fLbGuhg95lE",
                 "overlay": true,
-                "overlayOpacity": "0.4",
-                "contentAlign": "center",
+                "overlayOpacity": "0",
+                "contentAlign": "left",
                 "showTitle": true,
-                "title": "Phineas Moore<br> Portfolio<br>Developer",
-                "showText": false,
-                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "title": "Phineas Moore <br>Game Developer<br>Portfolio<br>",
+                "showText": true,
+                "text": "2D Platformer made in Unity",
                 "showButtons": true,
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-black\" href=\"chained.html\" data-toolbar=\"-mbrBtnMove\">Chained</a>  "
+                "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"snake.html\" data-toolbar=\"-mbrBtnMove\">Chained</a>"
               }
             ],
             "fullScreen": true,
@@ -196,12 +207,7 @@
             "showBullets": true
           },
           "_anchor": "slider-0",
-          "articleLayout": false,
-          "_styles": {
-            "H2": {
-              "font-size": "72px"
-            }
-          }
+          "articleLayout": false
         },
         {
           "_name": "footer1",
@@ -312,7 +318,7 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Phineas Moore<br>Developer<br></a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Phineas Moore<br>Game Developer<br></a>",
           "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">Projects<br></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"chained.html\">Chained</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"blasterfest.html\">Blasterfest</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"snake.html\">Snake</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"aboutme.html\" aria-expanded=\"false\">About Me</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact.html\" aria-expanded=\"false\">Contact</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
@@ -380,8 +386,8 @@
             }
           },
           "title": "About Me<br>Phineas Moore",
-          "text": "Hello! My name is Phineas Moore. Currently I am a junior game developer studying at the Mediacollege Amsterdam, The Netherlands. At the college I learn C# in Unity and Javascript. I’ve also played a tiny bit in Unreal Engine. In the three years at the college I have learnt a lot, however I want to learn more. During the course I have worked many times with game artists, project managers and product owners.<br><br>Here is my CV in English and in Dutch:",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-black\" href=\"https://drive.google.com/file/d/0B2pUZ_0K58X_SEJLQlFWTmVXQms/view\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">CV English</a> <a data-app-btn=\"true\" class=\"btn btn-black\" href=\"https://drive.google.com/file/d/0B2pUZ_0K58X_WGViMTNSN2ZiaXM/view\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">CV Nederlands</a>"
+          "text": "Hello! My name is Phineas Moore. Currently I am a junior game developer studying at the Mediacollege Amsterdam, The Netherlands. At the college I learn C# in Unity and Javascript. I’ve also played a tiny bit in Unreal Engine. In the three years at the college I have learnt a lot, however I want to learn more. During the course I have worked many times with game artists, project managers and product owners.<br><br>Currently I am on the look out for a internship at a game company. There is only so much I can learn at my college, and I believe the next step to help me further is to do an internship at a professional company.&nbsp;<br><br>I am a hard worker and always eager to learn something new, whether big or small. And I love to work in teams as I believe that is how you can make great products.<br><br>Here is my CV in English and in Dutch:",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-black\" href=\"https://drive.google.com/file/d/0B2pUZ_0K58X_YVVwSjdqazRQVUk/view?usp=sharing\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">CV English</a> <a data-app-btn=\"true\" class=\"btn btn-black\" href=\"https://drive.google.com/open?id=0B2pUZ_0K58X_WDBnYm5oX2o4WWc\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">CV Nederlands</a>"
         }
       ]
     },
@@ -475,7 +481,7 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Phineas Moore<br>Developer<br></a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Phineas Moore<br>Game Developer<br></a>",
           "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">Projects<br></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"chained.html\">Chained</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"blasterfest.html\">Blasterfest</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"snake.html\">Snake</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"aboutme.html\" aria-expanded=\"false\">About Me</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact.html\" aria-expanded=\"false\">Contact</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
@@ -733,7 +739,7 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Phineas Moore<br>Developer<br></a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Phineas Moore<br>Game Developer<br></a>",
           "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">Projects<br></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"chained.html\">Chained</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"blasterfest.html\">Blasterfest</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"snake.html\">Snake</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"aboutme.html\" aria-expanded=\"false\">About Me</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact.html\" aria-expanded=\"false\">Contact</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
@@ -908,7 +914,7 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Phineas Moore<br>Developer<br></a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Phineas Moore<br>Game Developer<br></a>",
           "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">Projects<br></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"chained.html\">Chained</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"blasterfest.html\">Blasterfest</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"snake.html\">Snake</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"aboutme.html\" aria-expanded=\"false\">About Me</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact.html\" aria-expanded=\"false\">Contact</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
@@ -1030,20 +1036,20 @@
             "Theme"
           ],
           "_name": "content7",
+          "_styles": {
+            "P": {
+              "color": "#000000"
+            }
+          },
           "_anchor": "content7-15",
           "_params": {
             "paddingTop": 1,
             "paddingBottom": 1,
             "bgColor": "#81c7f2"
           },
-          "text1": "<p><b>Information</b></p><p>Engine: Phaser.io Framework</p><p>Language: HTML5 and JavaScript</p><p>Genre: Arcade</p><p>Team: 1 Developer</p><p>Production Time: 1 week</p><p>Platform: Web</p><p>Playable link: Click <a href=\"http://18276.hosts.ma-cloud.nl/bewijzenmap/leerjaar3/proefopdrachten/Snake/\" target=\"_blank\" class=\"text-black\">Here</a></p><p>Github repo: Click <a href=\"https://github.com/Phazy1996/Snake-Game\" target=\"_blank\" class=\"text-black\">Here</a></p>",
+          "text1": "<p><b>Information</b></p><p>Engine: Phaser.io Framework</p><p>Language: HTML5 and JavaScript</p><p>Genre: Arcade</p><p>Team: 1 Developer</p><p>Production Time: 1 week</p><p>Platform: Web</p><p>Playable link: Click <a href=\"http://18276.hosts.ma-cloud.nl/bewijzenmap/leerjaar3/proefopdrachten/Snake/\" target=\"_blank\" class=\"text-black\"><b>Here</b></a></p><p>Github repo: Click <a href=\"https://github.com/Phazy1996/Snake-Game\" target=\"_blank\" class=\"text-black\"><b>Here</b></a></p>",
           "text2": "<p><b>Description</b></p><p>We were given a selection of assignments to pick from and asked to make a game within a week. I choose Snake as I haven't really made anything in JavaScript and seemed like a fun challenge. Also Phaser.io intrigued me.</p>",
-          "text3": "<p><b>My Role</b></p><p>Movement</p><p>User Interface</p><p>Pick ups</p><p>Death</p>",
-          "_styles": {
-            "P": {
-              "color": "#000000"
-            }
-          }
+          "text3": "<p><b>My Role</b></p><p>Movement</p><p>User Interface</p><p>Pick ups</p><p>Death</p>"
         }
       ]
     },
@@ -1137,7 +1143,7 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Phineas Moore<br>Developer<br></a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Phineas Moore<br>Game Developer<br></a>",
           "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">Projects<br></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"chained.html\">Chained</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"blasterfest.html\">Blasterfest</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"snake.html\">Snake</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"aboutme.html\" aria-expanded=\"false\">About Me</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact.html\" aria-expanded=\"false\">Contact</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
@@ -1316,7 +1322,7 @@
             "paddingBottom": 1,
             "bgColor": "#05d8ff"
           },
-          "text1": "<p><b>Information</b></p><p>Engine: Unity 2D</p><p>Language: C#</p><p>Genre: Battle Arena/Platform Shooter</p><p>Team: 2 Developers / 3 Artists</p><p>Production Time: 4 weeks</p><p>Platform: Web / PC</p><p>Playable link: Click <a href=\"https://nathannieuwenhuizen.github.io/PlayableBuilds/BlasterfestWEBGL/index.html\" class=\"text-black\" target=\"_blank\">Here</a></p><p>Github repo: Click <a href=\"https://github.com/Phazy1996/MatchMaker2\" target=\"_blank\" class=\"text-black\">Here</a></p><p></p><div></div><p></p>",
+          "text1": "<p><b>Information</b></p><p>Engine: Unity 2D</p><p>Language: C#</p><p>Genre: Battle Arena/Platform Shooter</p><p>Team: 2 Developers / 3 Artists</p><p>Production Time: 4 weeks</p><p>Platform: Web / PC</p><p>Playable link: Click <a href=\"https://nathannieuwenhuizen.github.io/PlayableBuilds/BlasterfestWEBGL/index.html\" class=\"text-black\" target=\"_blank\"><b>Here</b></a></p><p>Github repo: Click <a href=\"https://github.com/Phazy1996/MatchMaker2\" target=\"_blank\" class=\"text-black\"><b>Here</b></a></p><p></p><div></div><p></p>",
           "text2": "<p><b>Description</b></p><p>For this school project we were given the&nbsp;<span style=\"font-size: 1.07rem; line-height: 1.5;\">assignment to make a game. We were also&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\">asked to hire our own artists and other developers to work on the game.&nbsp;</span></p>",
           "text3": "<p><b>My Role</b></p><p>Transition of animations</p><p>Timer</p><p>User Interface</p><p>Tweaking / Balancing of the game</p>"
         }
@@ -1412,7 +1418,7 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Phineas Moore<br>Developer<br></a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Phineas Moore<br>Game Developer<br></a>",
           "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">Projects<br></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"chained.html\">Chained</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"blasterfest.html\">Blasterfest</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"snake.html\">Snake</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"aboutme.html\" aria-expanded=\"false\">About Me</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact.html\" aria-expanded=\"false\">Contact</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
@@ -1588,7 +1594,7 @@
             "paddingBottom": 1,
             "bgColor": "#19567f"
           },
-          "text1": "<p><b>Information</b></p><p>Engine: Unity 2D</p><p>Language: C#</p><p>Genre: 2D Platform / Adventure</p><p>Team: 4 Developers / 5 Artists</p><p><span style=\"font-size: 1.07rem; line-height: 1.5;\">Production Time: 8 weeks</span></p><p><span style=\"font-size: 1.07rem; line-height: 1.5;\">Platform: Web / PC</span></p><p>Playable link: Click <a href=\"http://18839.hosts.ma-cloud.nl/games/chained/\" class=\"text-white\" target=\"_blank\">Here</a></p><p>GitHub repo: Click <a href=\"https://github.com/FerryElbaghdadi/Mythe\" target=\"_blank\" class=\"text-white\">Here</a></p>",
+          "text1": "<p><b>Information</b></p><p>Engine: Unity 2D</p><p>Language: C#</p><p>Genre: 2D Platform / Adventure</p><p>Team: 4 Developers / 5 Artists</p><p><span style=\"font-size: 1.07rem; line-height: 1.5;\">Production Time: 8 weeks</span></p><p><span style=\"font-size: 1.07rem; line-height: 1.5;\">Platform: Web / PC</span></p><p>Playable link: Click <a href=\"http://18839.hosts.ma-cloud.nl/games/chained/\" class=\"text-white\" target=\"_blank\"><b>Here</b></a></p><p>GitHub repo: Click <a href=\"https://github.com/Phazy1996/Mythe\" target=\"_blank\" class=\"text-white\"><b>Here</b></a></p>",
           "text2": "<p><b>Description</b></p><p>This was my first major project with other developers and artists. The team was in total 9 people and we were given 8 weeks to make a game. We would then present the game not only to our classmates, but also to professionals in the game industry.</p>",
           "text3": "<p><b>My Role</b></p><p>User Interface</p><p>Menus</p><p>Parralax</p><p>Healthbars Player and Boss</p><p><br></p><p><br></p>"
         }
