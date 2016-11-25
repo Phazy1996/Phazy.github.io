@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "aboutme.html",
+    "currentPage": "index.html",
     "name": "Portfolio Phineas Moore",
     "theme": {
       "name": "mobirise3",
@@ -140,7 +140,7 @@
           "_name": "slider",
           "_styles": {
             "H2": {
-              "font-size": "48px",
+              "font-size": "36px",
               "text-align": "left"
             },
             "P": {
