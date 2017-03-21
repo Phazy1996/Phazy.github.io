@@ -26,7 +26,7 @@
     "favicon": "",
     "noImageResize": "",
     "publishType": "local",
-    "publishPath": "file:///C:/Users/Phineas/Desktop/Phinny%20Portfolio"
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "index.html": {
@@ -290,17 +290,17 @@
           "_name": "menu",
           "_anchor": "menu-2",
           "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": false,
+            "collapsed": true,
+            "transparent": false,
             "bgColor": "#282828",
             "fontSize": 0.75,
             "fontName": {},
             "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": false,
-            "sticky": false,
-            "logo": true,
-            "showBrand": true,
-            "collapsed": true,
-            "hideButtons": true
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
@@ -328,13 +328,13 @@
             "paddingTop": "2",
             "paddingBottom": "2",
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#323232",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#323232",
             "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
           },
           "text": "Copyright (c) 2016 Phineas Moore"
         },
@@ -345,23 +345,23 @@
           "_name": "header2",
           "_anchor": "header2-7",
           "_params": {
-            "parallax": true,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/landscape.jpg",
-            "bgColor": "#3d8eb9",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": 0.3,
-            "overlayColor": "#000",
-            "inverse": true,
             "showTitle": true,
             "showText": true,
             "showButtons": true,
-            "showArrow": false
+            "inverse": true,
+            "showArrow": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/landscape.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#3d8eb9",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#000",
+            "overlayOpacity": 0.3
           },
           "media": {
             "image": {
@@ -453,17 +453,17 @@
           "_name": "menu",
           "_anchor": "menu-4",
           "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": false,
+            "collapsed": true,
+            "transparent": false,
             "bgColor": "#282828",
             "fontSize": 0.75,
             "fontName": {},
             "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": false,
-            "sticky": false,
-            "logo": true,
-            "showBrand": true,
-            "collapsed": true,
-            "hideButtons": true
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
@@ -491,13 +491,13 @@
             "paddingTop": "2",
             "paddingBottom": "2",
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#323232",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#323232",
             "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
           },
           "text": "Copyright (c) 2016 Phineas Moore"
         },
@@ -528,27 +528,27 @@
           },
           "_anchor": "features2-a",
           "_params": {
-            "columnsColor": "#3d8eb9",
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#2969b0",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "columns": 4,
             "showImages": true,
             "showTitles": true,
             "showSubtitles": false,
             "ShowTexts": false,
-            "showButtons": true
+            "showButtons": true,
+            "columnsColor": "#3d8eb9",
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "columns": 4,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#2969b0",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
           },
           "media1": {
             "iconFont": {
@@ -711,17 +711,17 @@
           "_name": "menu",
           "_anchor": "menu-c",
           "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": false,
+            "collapsed": true,
+            "transparent": false,
             "bgColor": "#282828",
             "fontSize": 0.75,
             "fontName": {},
             "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": false,
-            "sticky": false,
-            "logo": true,
-            "showBrand": true,
-            "collapsed": true,
-            "hideButtons": true
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
@@ -749,13 +749,13 @@
             "paddingTop": "2",
             "paddingBottom": "2",
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#323232",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#323232",
             "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
           },
           "text": "Copyright (c) 2016 Phineas Moore"
         },
@@ -777,19 +777,19 @@
           },
           "_anchor": "form1-e",
           "_params": {
+            "showTitle": true,
+            "showSubTitle": true,
             "labelsColor": "#232323",
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#3d8eb9",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#3d8eb9",
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showTitle": true,
-            "showSubTitle": true
+            "overlayOpacity": 0.5
           },
           "title": "CONTACT FORM",
           "subtitle": "Have any questions for me? Leave me a message and I'll get back to you!",
@@ -886,17 +886,17 @@
           "_name": "menu",
           "_anchor": "menu-k",
           "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": false,
+            "collapsed": true,
+            "transparent": false,
             "bgColor": "#282828",
             "fontSize": 0.75,
             "fontName": {},
             "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": false,
-            "sticky": false,
-            "logo": true,
-            "showBrand": true,
-            "collapsed": true,
-            "hideButtons": true
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
@@ -924,13 +924,13 @@
             "paddingTop": "2",
             "paddingBottom": "2",
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#323232",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#323232",
             "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
           },
           "text": "Copyright (c) 2016 Phineas Moore"
         },
@@ -946,24 +946,24 @@
           },
           "_anchor": "msg-box1-u",
           "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "inverse": false,
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#81c7f2",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#81c7f2",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "inverse": false,
-            "showButtons": false,
-            "showText": true,
-            "showTitle": true
+            "overlayOpacity": 0.5
           },
           "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">SEE LIVE DEMO</a>",
           "text": "Snake game made with Phaser.io. A HTML5 based game framework.",
@@ -975,8 +975,15 @@
           ],
           "_name": "gallery1",
           "_params": {
+            "showBullets": true,
+            "fullWidth": false,
+            "spacing": 0,
             "paddingTop": 0,
             "paddingBottom": 0,
+            "filterBgColor": false,
+            "bgColor": "#FFFFFF",
+            "showText": false,
+            "filter": false,
             "images": [
               {
                 "tags": "Responsive",
@@ -1018,14 +1025,7 @@
                 "caption": "Type caption here",
                 "active": true
               }
-            ],
-            "spacing": 0,
-            "showText": false,
-            "filter": false,
-            "bgColor": "#FFFFFF",
-            "filterBgColor": false,
-            "fullWidth": false,
-            "showBullets": true
+            ]
           },
           "_anchor": "gallery1-1h",
           "articleLayout": false,
@@ -1115,17 +1115,17 @@
           "_name": "menu",
           "_anchor": "menu-16",
           "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": false,
+            "collapsed": true,
+            "transparent": false,
             "bgColor": "#282828",
             "fontSize": 0.75,
             "fontName": {},
             "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": false,
-            "sticky": false,
-            "logo": true,
-            "showBrand": true,
-            "collapsed": true,
-            "hideButtons": true
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
@@ -1153,13 +1153,13 @@
             "paddingTop": "2",
             "paddingBottom": "2",
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#323232",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#323232",
             "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
           },
           "text": "Copyright (c) 2016 Phineas Moore"
         },
@@ -1178,24 +1178,24 @@
           },
           "_anchor": "msg-box1-18",
           "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "inverse": false,
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#05d8ff",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#05d8ff",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "inverse": false,
-            "showButtons": false,
-            "showText": true,
-            "showTitle": true
+            "overlayOpacity": 0.5
           },
           "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">SEE LIVE DEMO</a>",
           "text": "Battle Arena game made with Unity",
@@ -1207,8 +1207,15 @@
           ],
           "_name": "gallery1",
           "_params": {
+            "showBullets": true,
+            "fullWidth": false,
+            "spacing": 0,
             "paddingTop": 0,
             "paddingBottom": 0,
+            "filterBgColor": false,
+            "bgColor": "#FFFFFF",
+            "showText": false,
+            "filter": false,
             "images": [
               {
                 "tags": "Awesome",
@@ -1290,14 +1297,7 @@
                 "caption": "Type caption here",
                 "active": false
               }
-            ],
-            "spacing": 0,
-            "showText": false,
-            "filter": false,
-            "bgColor": "#FFFFFF",
-            "filterBgColor": false,
-            "fullWidth": false,
-            "showBullets": true
+            ]
           },
           "_anchor": "gallery1-1g",
           "articleLayout": false,
@@ -1390,17 +1390,17 @@
           "_name": "menu",
           "_anchor": "menu-1b",
           "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": false,
+            "collapsed": true,
+            "transparent": false,
             "bgColor": "#282828",
             "fontSize": 0.75,
             "fontName": {},
             "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": false,
-            "sticky": false,
-            "logo": true,
-            "showBrand": true,
-            "collapsed": true,
-            "hideButtons": true
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
@@ -1428,13 +1428,13 @@
             "paddingTop": "2",
             "paddingBottom": "2",
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#323232",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#323232",
             "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
           },
           "text": "Copyright (c) 2016 Phineas Moore"
         },
@@ -1453,24 +1453,24 @@
           },
           "_anchor": "msg-box1-1d",
           "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "inverse": false,
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#19567f",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#19567f",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "inverse": false,
-            "showButtons": false,
-            "showText": true,
-            "showTitle": true
+            "overlayOpacity": 0.5
           },
           "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">SEE LIVE DEMO</a>",
           "text": "A 2D game made in Unity. First time working in a fairly large team",
@@ -1482,8 +1482,15 @@
           ],
           "_name": "gallery1",
           "_params": {
+            "showBullets": true,
+            "fullWidth": false,
+            "spacing": 0,
             "paddingTop": 0,
             "paddingBottom": 0,
+            "filterBgColor": false,
+            "bgColor": "#ffffff",
+            "showText": false,
+            "filter": false,
             "images": [
               {
                 "tags": "Awesome",
@@ -1565,14 +1572,7 @@
                 "caption": "Type caption here",
                 "active": true
               }
-            ],
-            "spacing": 0,
-            "showText": false,
-            "filter": false,
-            "bgColor": "#ffffff",
-            "filterBgColor": false,
-            "fullWidth": false,
-            "showBullets": true
+            ]
           },
           "_anchor": "gallery1-1e",
           "articleLayout": false,
