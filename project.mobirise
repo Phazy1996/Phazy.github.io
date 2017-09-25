@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "index.html",
+    "currentPage": "hieroheros.html",
     "name": "Portfolio Phineas Moore",
     "theme": {
       "name": "mobirise3",
@@ -21,7 +21,7 @@
       }
     },
     "versionFirst": "3.8.5",
-    "uniqCompNum": 56,
+    "uniqCompNum": 61,
     "versionPublish": "3.8.5",
     "favicon": "",
     "noImageResize": "",
@@ -131,7 +131,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Phineas Moore<br>Game Developer<br></a>",
-          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">Projects<br></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"chained.html\">Chained</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"blasterfest.html\">Blasterfest</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"snake.html\">Snake</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"aboutme.html\" aria-expanded=\"false\">About Me</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact.html\" aria-expanded=\"false\">Contact</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Projects<br></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"chained.html\">Chained</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"blasterfest.html\">Blasterfest</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"snake.html\">Snake</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"aboutme.html\" aria-expanded=\"false\">About Me</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact.html\" aria-expanded=\"false\">Contact</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
           "_tags": [
@@ -290,17 +290,17 @@
           "_name": "menu",
           "_anchor": "menu-2",
           "_params": {
-            "logo": true,
-            "showBrand": true,
-            "hideButtons": true,
-            "sticky": false,
-            "collapsed": true,
-            "transparent": false,
             "bgColor": "#282828",
             "fontSize": 0.75,
             "fontName": {},
             "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor"
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": false,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": true
           },
           "logo": {
             "image": {
@@ -319,7 +319,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Phineas Moore<br>Game Developer<br></a>",
-          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">Projects<br></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"chained.html\">Chained</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"blasterfest.html\">Blasterfest</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"snake.html\">Snake</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"aboutme.html\" aria-expanded=\"false\">About Me</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact.html\" aria-expanded=\"false\">Contact</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Projects<br></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"chained.html\">Chained</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"blasterfest.html\">Blasterfest</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"snake.html\">Snake</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"aboutme.html\" aria-expanded=\"false\">About Me</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact.html\" aria-expanded=\"false\">Contact</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
           "_name": "footer1",
@@ -328,13 +328,13 @@
             "paddingTop": "2",
             "paddingBottom": "2",
             "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
-            "bgColorRadio": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "bgColor": "#323232",
+            "bgColorRadio": true,
             "overlay": true,
-            "overlayColor": "#444444",
-            "overlayOpacity": 0.8
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
           },
           "text": "Copyright (c) 2016 Phineas Moore"
         },
@@ -345,29 +345,29 @@
           "_name": "header2",
           "_anchor": "header2-7",
           "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true,
-            "inverse": true,
-            "showArrow": false,
+            "parallax": true,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/landscape.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
             "bgColor": "#3d8eb9",
-            "bgVideoRadio": false,
+            "bgColorRadio": true,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
             "overlay": true,
+            "overlayOpacity": 0.3,
             "overlayColor": "#000",
-            "overlayOpacity": 0.3
+            "inverse": true,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": false
           },
           "media": {
             "image": {
               "active": true,
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/phineas-1400x1395-85.jpg",
+              "src": "@PROJECT_PATH@/assets/images/21199381-1822728751087699-7294664678791273027-o-1400x1404-58.jpg",
               "link": "",
               "alt": "",
               "title": "",
@@ -387,7 +387,7 @@
           },
           "title": "About Me<br>Phineas Moore",
           "text": "Hello! My name is Phineas Moore. Currently I am a junior game developer studying at the Mediacollege Amsterdam, The Netherlands. At the college I learn C# in Unity and Javascript. I’ve also played a tiny bit in Unreal Engine. In the three years at the college I have learnt a lot, however I want to learn more. During the course I have worked many times with game artists, project managers and product owners.<br><br>Currently I am on the look out for a internship at a game company. There is only so much I can learn at my college, and I believe the next step to help me further is to do an internship at a professional company.&nbsp;<br><br>I am a hard worker and always eager to learn something new, whether big or small. And I love to work in teams as I believe that is how you can make great products.<br><br>Here is my CV in English and in Dutch:",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-black\" href=\"https://drive.google.com/file/d/0B2pUZ_0K58X_YVVwSjdqazRQVUk/view?usp=sharing\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">CV English</a> <a data-app-btn=\"true\" class=\"btn btn-black\" href=\"https://drive.google.com/open?id=0B2pUZ_0K58X_WDBnYm5oX2o4WWc\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">CV Nederlands</a>"
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-black\" href=\"https://drive.google.com/file/d/0B2pUZ_0K58X_dXNIcmdfaVVQTHM/view?usp=sharing\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">CV English</a> <a data-app-btn=\"true\" class=\"btn btn-black\" href=\"https://drive.google.com/open?id=0B2pUZ_0K58X_WDBnYm5oX2o4WWc\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">CV Nederlands</a>"
         }
       ]
     },
@@ -453,17 +453,17 @@
           "_name": "menu",
           "_anchor": "menu-4",
           "_params": {
-            "logo": true,
-            "showBrand": true,
-            "hideButtons": true,
-            "sticky": false,
-            "collapsed": true,
-            "transparent": false,
             "bgColor": "#282828",
             "fontSize": 0.75,
             "fontName": {},
             "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor"
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": false,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": true
           },
           "logo": {
             "image": {
@@ -482,7 +482,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Phineas Moore<br>Game Developer<br></a>",
-          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">Projects<br></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"chained.html\">Chained</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"blasterfest.html\">Blasterfest</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"snake.html\">Snake</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"aboutme.html\" aria-expanded=\"false\">About Me</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact.html\" aria-expanded=\"false\">Contact</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Projects<br></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"chained.html\">Chained</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"blasterfest.html\">Blasterfest</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"snake.html\">Snake</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"aboutme.html\" aria-expanded=\"false\">About Me</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact.html\" aria-expanded=\"false\">Contact</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
           "_name": "footer1",
@@ -491,13 +491,13 @@
             "paddingTop": "2",
             "paddingBottom": "2",
             "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
-            "bgColorRadio": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "bgColor": "#323232",
+            "bgColorRadio": true,
             "overlay": true,
-            "overlayColor": "#444444",
-            "overlayOpacity": 0.8
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
           },
           "text": "Copyright (c) 2016 Phineas Moore"
         },
@@ -528,27 +528,27 @@
           },
           "_anchor": "features2-a",
           "_params": {
+            "columnsColor": "#3d8eb9",
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#2969b0",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "columns": 4,
             "showImages": true,
             "showTitles": true,
             "showSubtitles": false,
             "ShowTexts": false,
-            "showButtons": true,
-            "columnsColor": "#3d8eb9",
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "columns": 4,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#2969b0",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
+            "showButtons": true
           },
           "media1": {
             "iconFont": {
@@ -566,7 +566,7 @@
           "title1": "Phone",
           "subtitle1": "Bootstrap 4 has been noted",
           "caption1": "Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
-          "button1": " <a data-app-btn=\"true\" href=\"contact.html#features2-a\" class=\"btn btn-black\" data-toolbar=\"-mbrBtnMove\">(+31)6-1758-8439</a>",
+          "button1": " <a data-app-btn=\"true\" href=\"contact.html#features2-a\" class=\"btn btn-black\" data-toolbar=\"-mbrBtnMove\">(+31)6-1758-8439</a> ",
           "media2": {
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-features2",
@@ -711,17 +711,17 @@
           "_name": "menu",
           "_anchor": "menu-c",
           "_params": {
-            "logo": true,
-            "showBrand": true,
-            "hideButtons": true,
-            "sticky": false,
-            "collapsed": true,
-            "transparent": false,
             "bgColor": "#282828",
             "fontSize": 0.75,
             "fontName": {},
             "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor"
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": false,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": true
           },
           "logo": {
             "image": {
@@ -740,7 +740,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Phineas Moore<br>Game Developer<br></a>",
-          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">Projects<br></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"chained.html\">Chained</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"blasterfest.html\">Blasterfest</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"snake.html\">Snake</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"aboutme.html\" aria-expanded=\"false\">About Me</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact.html\" aria-expanded=\"false\">Contact</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Projects<br></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"chained.html\">Chained</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"blasterfest.html\">Blasterfest</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"snake.html\">Snake</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"aboutme.html\" aria-expanded=\"false\">About Me</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact.html\" aria-expanded=\"false\">Contact</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
           "_name": "footer1",
@@ -749,13 +749,13 @@
             "paddingTop": "2",
             "paddingBottom": "2",
             "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
-            "bgColorRadio": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "bgColor": "#323232",
+            "bgColorRadio": true,
             "overlay": true,
-            "overlayColor": "#444444",
-            "overlayOpacity": 0.8
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
           },
           "text": "Copyright (c) 2016 Phineas Moore"
         },
@@ -777,19 +777,19 @@
           },
           "_anchor": "form1-e",
           "_params": {
-            "showTitle": true,
-            "showSubTitle": true,
             "labelsColor": "#232323",
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
-            "bgColorRadio": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "bgColor": "#3d8eb9",
+            "bgColorRadio": true,
             "overlay": false,
+            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "overlayOpacity": 0.5
+            "showTitle": true,
+            "showSubTitle": true
           },
           "title": "CONTACT FORM",
           "subtitle": "Have any questions for me? Leave me a message and I'll get back to you!",
@@ -886,17 +886,17 @@
           "_name": "menu",
           "_anchor": "menu-k",
           "_params": {
-            "logo": true,
-            "showBrand": true,
-            "hideButtons": true,
-            "sticky": false,
-            "collapsed": true,
-            "transparent": false,
             "bgColor": "#282828",
             "fontSize": 0.75,
             "fontName": {},
             "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor"
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": false,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": true
           },
           "logo": {
             "image": {
@@ -915,7 +915,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Phineas Moore<br>Game Developer<br></a>",
-          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">Projects<br></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"chained.html\">Chained</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"blasterfest.html\">Blasterfest</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"snake.html\">Snake</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"aboutme.html\" aria-expanded=\"false\">About Me</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact.html\" aria-expanded=\"false\">Contact</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Projects<br></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"chained.html\">Chained</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"blasterfest.html\">Blasterfest</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"snake.html\">Snake</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"aboutme.html\" aria-expanded=\"false\">About Me</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact.html\" aria-expanded=\"false\">Contact</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
           "_name": "footer1",
@@ -924,13 +924,13 @@
             "paddingTop": "2",
             "paddingBottom": "2",
             "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
-            "bgColorRadio": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "bgColor": "#323232",
+            "bgColorRadio": true,
             "overlay": true,
-            "overlayColor": "#444444",
-            "overlayOpacity": 0.8
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
           },
           "text": "Copyright (c) 2016 Phineas Moore"
         },
@@ -946,24 +946,24 @@
           },
           "_anchor": "msg-box1-u",
           "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false,
-            "inverse": false,
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
-            "bgColorRadio": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "bgColor": "#81c7f2",
-            "bgVideoRadio": false,
+            "bgColorRadio": true,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
             "overlay": false,
+            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "overlayOpacity": 0.5
+            "inverse": false,
+            "showButtons": false,
+            "showText": true,
+            "showTitle": true
           },
           "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">SEE LIVE DEMO</a>",
           "text": "Snake game made with Phaser.io. A HTML5 based game framework.",
@@ -975,15 +975,8 @@
           ],
           "_name": "gallery1",
           "_params": {
-            "showBullets": true,
-            "fullWidth": false,
-            "spacing": 0,
             "paddingTop": 0,
             "paddingBottom": 0,
-            "filterBgColor": false,
-            "bgColor": "#FFFFFF",
-            "showText": false,
-            "filter": false,
             "images": [
               {
                 "tags": "Responsive",
@@ -1025,7 +1018,14 @@
                 "caption": "Type caption here",
                 "active": true
               }
-            ]
+            ],
+            "spacing": 0,
+            "showText": false,
+            "filter": false,
+            "bgColor": "#FFFFFF",
+            "filterBgColor": false,
+            "fullWidth": false,
+            "showBullets": true
           },
           "_anchor": "gallery1-1h",
           "articleLayout": false,
@@ -1115,17 +1115,17 @@
           "_name": "menu",
           "_anchor": "menu-16",
           "_params": {
-            "logo": true,
-            "showBrand": true,
-            "hideButtons": true,
-            "sticky": false,
-            "collapsed": true,
-            "transparent": false,
             "bgColor": "#282828",
             "fontSize": 0.75,
             "fontName": {},
             "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor"
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": false,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": true
           },
           "logo": {
             "image": {
@@ -1144,7 +1144,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Phineas Moore<br>Game Developer<br></a>",
-          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">Projects<br></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"chained.html\">Chained</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"blasterfest.html\">Blasterfest</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"snake.html\">Snake</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"aboutme.html\" aria-expanded=\"false\">About Me</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact.html\" aria-expanded=\"false\">Contact</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Projects<br></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"chained.html\">Chained</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"blasterfest.html\">Blasterfest</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"snake.html\">Snake</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"aboutme.html\" aria-expanded=\"false\">About Me</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact.html\" aria-expanded=\"false\">Contact</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
           "_name": "footer1",
@@ -1153,13 +1153,13 @@
             "paddingTop": "2",
             "paddingBottom": "2",
             "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
-            "bgColorRadio": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "bgColor": "#323232",
+            "bgColorRadio": true,
             "overlay": true,
-            "overlayColor": "#444444",
-            "overlayOpacity": 0.8
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
           },
           "text": "Copyright (c) 2016 Phineas Moore"
         },
@@ -1178,24 +1178,24 @@
           },
           "_anchor": "msg-box1-18",
           "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false,
-            "inverse": false,
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
-            "bgColorRadio": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "bgColor": "#05d8ff",
-            "bgVideoRadio": false,
+            "bgColorRadio": true,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
             "overlay": false,
+            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "overlayOpacity": 0.5
+            "inverse": false,
+            "showButtons": false,
+            "showText": true,
+            "showTitle": true
           },
           "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">SEE LIVE DEMO</a>",
           "text": "Battle Arena game made with Unity",
@@ -1207,15 +1207,8 @@
           ],
           "_name": "gallery1",
           "_params": {
-            "showBullets": true,
-            "fullWidth": false,
-            "spacing": 0,
             "paddingTop": 0,
             "paddingBottom": 0,
-            "filterBgColor": false,
-            "bgColor": "#FFFFFF",
-            "showText": false,
-            "filter": false,
             "images": [
               {
                 "tags": "Awesome",
@@ -1297,7 +1290,14 @@
                 "caption": "Type caption here",
                 "active": false
               }
-            ]
+            ],
+            "spacing": 0,
+            "showText": false,
+            "filter": false,
+            "bgColor": "#FFFFFF",
+            "filterBgColor": false,
+            "fullWidth": false,
+            "showBullets": true
           },
           "_anchor": "gallery1-1g",
           "articleLayout": false,
@@ -1390,17 +1390,17 @@
           "_name": "menu",
           "_anchor": "menu-1b",
           "_params": {
-            "logo": true,
-            "showBrand": true,
-            "hideButtons": true,
-            "sticky": false,
-            "collapsed": true,
-            "transparent": false,
             "bgColor": "#282828",
             "fontSize": 0.75,
             "fontName": {},
             "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor"
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": false,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": true
           },
           "logo": {
             "image": {
@@ -1419,7 +1419,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Phineas Moore<br>Game Developer<br></a>",
-          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">Projects<br></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"chained.html\">Chained</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"blasterfest.html\">Blasterfest</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"snake.html\">Snake</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"aboutme.html\" aria-expanded=\"false\">About Me</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact.html\" aria-expanded=\"false\">Contact</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Projects<br></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"chained.html\">Chained</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"blasterfest.html\">Blasterfest</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"snake.html\">Snake</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"aboutme.html\" aria-expanded=\"false\">About Me</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact.html\" aria-expanded=\"false\">Contact</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
           "_name": "footer1",
@@ -1428,13 +1428,13 @@
             "paddingTop": "2",
             "paddingBottom": "2",
             "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
-            "bgColorRadio": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "bgColor": "#323232",
+            "bgColorRadio": true,
             "overlay": true,
-            "overlayColor": "#444444",
-            "overlayOpacity": 0.8
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
           },
           "text": "Copyright (c) 2016 Phineas Moore"
         },
@@ -1453,24 +1453,24 @@
           },
           "_anchor": "msg-box1-1d",
           "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false,
-            "inverse": false,
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
-            "bgColorRadio": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "bgColor": "#19567f",
-            "bgVideoRadio": false,
+            "bgColorRadio": true,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
             "overlay": false,
+            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "overlayOpacity": 0.5
+            "inverse": false,
+            "showButtons": false,
+            "showText": true,
+            "showTitle": true
           },
           "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">SEE LIVE DEMO</a>",
           "text": "A 2D game made in Unity. First time working in a fairly large team",
@@ -1482,26 +1482,9 @@
           ],
           "_name": "gallery1",
           "_params": {
-            "showBullets": true,
-            "fullWidth": false,
-            "spacing": 0,
             "paddingTop": 0,
             "paddingBottom": 0,
-            "filterBgColor": false,
-            "bgColor": "#ffffff",
-            "showText": false,
-            "filter": false,
             "images": [
-              {
-                "tags": "Awesome",
-                "playVideo": true,
-                "videoUrl": "https://youtu.be/fLbGuhg95lE",
-                "videoPreview": "@PROJECT_PATH@/assets/images/2016-11-16-14-24-20.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/bike-small.jpg",
-                "image": "@THEME_PATH@/components/_images/gallery/bike.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
               {
                 "tags": "Responsive",
                 "playVideo": false,
@@ -1572,7 +1555,14 @@
                 "caption": "Type caption here",
                 "active": true
               }
-            ]
+            ],
+            "spacing": 0,
+            "showText": false,
+            "filter": false,
+            "bgColor": "#ffffff",
+            "filterBgColor": false,
+            "fullWidth": false,
+            "showBullets": true
           },
           "_anchor": "gallery1-1e",
           "articleLayout": false,
@@ -1597,6 +1587,278 @@
           "text1": "<p><b>Information</b></p><p>Engine: Unity 2D</p><p>Language: C#</p><p>Genre: 2D Platform / Adventure</p><p>Team: 4 Developers / 5 Artists</p><p><span style=\"font-size: 1.07rem; line-height: 1.5;\">Production Time: 8 weeks</span></p><p><span style=\"font-size: 1.07rem; line-height: 1.5;\">Platform: Web / PC</span></p><p>Playable link: Click <a href=\"http://18839.hosts.ma-cloud.nl/games/chained/\" class=\"text-white\" target=\"_blank\"><b>Here</b></a></p><p>GitHub repo: Click <a href=\"https://github.com/Phazy1996/Mythe\" target=\"_blank\" class=\"text-white\"><b>Here</b></a></p>",
           "text2": "<p><b>Description</b></p><p>This was my first major project with other developers and artists. The team was in total 9 people and we were given 8 weeks to make a game. We would then present the game not only to our classmates, but also to professionals in the game industry.</p>",
           "text3": "<p><b>My Role</b></p><p>User Interface</p><p>Menus</p><p>Parralax</p><p>Healthbars Player and Boss</p><p><br></p><p><br></p>"
+        }
+      ]
+    },
+    "hieroheros.html": {
+      "settings": {},
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#3d8eb9!important"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__section": {},
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            }
+          },
+          "_name": "menu",
+          "_anchor": "menu-1k",
+          "_params": {
+            "bgColor": "#282828",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": false,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/rubikcubenobackground-170x128-35.png",
+              "height": 128,
+              "alt": "",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Phineas Moore<br>Game Developer<br></a>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Projects<br></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"chained.html\">Chained</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"blasterfest.html\">Blasterfest</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"snake.html\">Snake</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"aboutme.html\" aria-expanded=\"false\">About Me</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact.html\" aria-expanded=\"false\">Contact</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+        },
+        {
+          "_name": "footer1",
+          "_anchor": "footer1-1l",
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": "2",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2016 Phineas Moore"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box1",
+          "_styles": {
+            "H2": {
+              "color": "#000000"
+            },
+            "H3": {
+              "color": "#000000"
+            }
+          },
+          "_anchor": "msg-box1-1m",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#c0a375",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "inverse": false,
+            "showButtons": false,
+            "showText": true,
+            "showTitle": true
+          },
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">SEE LIVE DEMO</a>",
+          "text": "Tablet game made in collaboration with students from the University of Amsterdam",
+          "title": "HIERO HERO"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery1",
+          "_params": {
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "images": [
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/logo.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/screenshot-2000x959-66-2000x959-42.png",
+                "image": "@PROJECT_PATH@/assets/images/screenshot-2000x959-66.png",
+                "caption": "Type caption here",
+                "active": true
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://youtu.be/2D8zRsbDg1U",
+                "videoPreview": "@PROJECT_PATH@/2016-11-16_14-27-14.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/screenshot-1-2000x1124-44-2000x1124-84.jpg",
+                "image": "@PROJECT_PATH@/assets/images/screenshot-1-2000x1124-44.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Creative",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/screenshot-2-2000x1124-75-2000x1124-76.jpg",
+                "image": "@PROJECT_PATH@/assets/images/screenshot-2-2000x1124-75.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/screenshot-3-2000x1124-42-2000x1124-47.jpg",
+                "image": "@PROJECT_PATH@/assets/images/screenshot-3-2000x1124-42.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/screenshot-4-2000x1124-51-2000x1124-21.jpg",
+                "image": "@PROJECT_PATH@/assets/images/screenshot-4-2000x1124-51.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Beautiful",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/screenshot-5-2000x1125-62-2000x1125-19.png",
+                "image": "@PROJECT_PATH@/assets/images/screenshot-5-2000x1125-62.png",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://youtu.be/2D8zRsbDg1U",
+                "videoPreview": "@PROJECT_PATH@/2016-11-16_14-27-31.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/screenshot-6-2000x1125-27-2000x1125-22.png",
+                "image": "@PROJECT_PATH@/assets/images/screenshot-6-2000x1125-27.png",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/screenshot-7-2000x1125-98-2000x1125-96.png",
+                "image": "@PROJECT_PATH@/assets/images/screenshot-7-2000x1125-98.png",
+                "caption": "Type caption here",
+                "active": false
+              }
+            ],
+            "spacing": 0,
+            "showText": false,
+            "filter": false,
+            "bgColor": "#ffffff",
+            "filterBgColor": false,
+            "fullWidth": false,
+            "showBullets": true
+          },
+          "_anchor": "gallery1-1n",
+          "articleLayout": false,
+          "allItem": "All"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content7",
+          "_styles": {
+            "P": {
+              "color": "#000000"
+            }
+          },
+          "_anchor": "content7-1o",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#c0a375"
+          },
+          "text1": "<p><b>Information</b></p><p>Engine: Unity 2D</p><p>Language: C#</p><p>Genre: 2D Puzzle games</p><p>Team: 4 Developers / 2 Artists / 4 students from the UvA</p><p><span style=\"font-size: 1.07rem; line-height: 1.5;\">Production Time: 2 weeks</span></p><p><span style=\"font-size: 1.07rem; line-height: 1.5;\">Platform: Android Tablet</span></p><p>GitHub repo: Click <b><a href=\"https://github.com/SebastiaanBuwalda/Mummy-UVA\" target=\"_blank\" class=\"text-black\">Here</a></b></p>",
+          "text2": "<p><b>Description</b></p><p>This project was made in collaboration with students from the University of Amsterdam. The students already had the game concept worked out, our task was to put it all together in 2 weeks time whilst working closely with the university students incase of changes that had to be made to make the deadline. The project went very well considering this was the first time working with a third party.</p>",
+          "text3": "<p><b>My Role</b></p><p>Cutscenes</p><p>User Interfaces</p><p>Implemantation of Animations</p><p><br></p><p><br></p>"
         }
       ]
     }
